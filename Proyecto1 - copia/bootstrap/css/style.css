@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 20px;
+    background-color: #f2a20cb3;
+}
+.imglogo{
+    display: flex;
+    padding: 1px;
+    width: 400px;
+}
+.acceso{
+    display: flex;
+    gap: 1.875rem;
+}
+.iconoacceso{
+    display: flex;
+    padding: 2px;
+    width: 30px;
+}
+.acceso li a{
+    font-size: 20px;
+    font-family: Verdana;
+    color:white;
+}
+.acceso li a:hover{
+    text-decoration: overline;
+    color: #000000;
+}
+.navbar{
+    display: flex;
+    gap: 1.25rem;
+}
+.navbar li a{
+    font-size: 20px;
+    font-family: Verdana;   
+    color: white;
+}
+.navbar li a:hover{
+    text-decoration: overline;
+    color:#000000
+}
+
+.g-col-6{
+    background-color: aqua;
+}
